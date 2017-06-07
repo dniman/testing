@@ -1,7 +1,7 @@
 require './test'
 
 RSpec.describe  "test_variant3_spec.rb" do
-  let(:path) { File.expand_path('../tmp', __FILE__) }
+  let(:path) { File.expand_path('../../tmp', __FILE__) }
 
   describe "#get_data" do
     it "loads yaml file" do

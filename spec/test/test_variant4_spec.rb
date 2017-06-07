@@ -4,7 +4,7 @@ require 'fakefs/safe'
 RSpec.describe  "test_variant4_spec.rb" do
 
   describe "#get_data" do
-    let(:path) { File.expand_path('../tmp', __FILE__) }
+    let(:path) { File.expand_path('../../tmp', __FILE__) }
     before(:each) do 
       FakeFS.activate! 
       FakeFS::FileSystem.clone(path)
